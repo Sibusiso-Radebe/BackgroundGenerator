@@ -1,7 +1,9 @@
-const array = [1,2,10,16];
+//just a comment
 
-const newArray = array.forEach((num)=>{
+const array = [1, 2, 10, 16];
+
+const newArray = array.forEach((num) => {
 	num * 2;
-})
+});
 
 console.log(newArray);
